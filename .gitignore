@@ -1,0 +1,36 @@
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Personal shell / system files (not part of the project)
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.viminfo
+.cache/
+.config/
+.claude/
+*.swp
+*.log
+
+# IDE
+.vscode/
+.idea/
